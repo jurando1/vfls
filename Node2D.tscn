@@ -10,8 +10,8 @@ extents = Vector2( 8, 8 )
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 133, 132 )
 texture = ExtResource( 1 )
-vframes = 16
 hframes = 16
+vframes = 16
 frame = 3
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Sprite"]
@@ -22,8 +22,8 @@ shape = SubResource( 1 )
 [node name="Sprite2" type="Sprite" parent="."]
 position = Vector2( 133, 112 )
 texture = ExtResource( 1 )
-vframes = 16
 hframes = 16
+vframes = 16
 frame = 2
 __meta__ = {
 "_edit_group_": true
@@ -37,8 +37,8 @@ shape = SubResource( 1 )
 [node name="Sprite3" type="Sprite" parent="."]
 position = Vector2( 112, 132 )
 texture = ExtResource( 1 )
-vframes = 16
 hframes = 16
+vframes = 16
 __meta__ = {
 "_edit_group_": true
 }
@@ -51,8 +51,8 @@ shape = SubResource( 1 )
 [node name="Sprite4" type="Sprite" parent="."]
 position = Vector2( 112, 152 )
 texture = ExtResource( 1 )
-vframes = 16
 hframes = 16
+vframes = 16
 frame = 8
 __meta__ = {
 "_edit_group_": true
@@ -66,8 +66,8 @@ shape = SubResource( 1 )
 [node name="Sprite5" type="Sprite" parent="."]
 position = Vector2( 112, 112 )
 texture = ExtResource( 1 )
-vframes = 16
 hframes = 16
+vframes = 16
 frame = 4
 __meta__ = {
 "_edit_group_": true
