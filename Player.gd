@@ -71,3 +71,5 @@ func _physics_process(_delta):
 
 	motion = move_and_slide(motion,UP)
 	
+func _on_KillZone_body_entered(body):
+		get_tree().change_scene("res://GameOver.tscn")

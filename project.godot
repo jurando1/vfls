@@ -39,7 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="vfls"
-run/main_scene="res://World.tscn"
+run/main_scene="res://Menu.tscn"
 config/icon="res://icon.png"
 
 [autoload]
