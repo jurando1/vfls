@@ -17,7 +17,9 @@ extends Control
 
 
 func _on_New_Game_pressed():
+	yield(Fade.fade_out(1), "finished")
 	get_tree().change_scene("res://World.tscn")
+	Fade.fade_in(1)
 
 
 func _on_Load_Game_pressed():
@@ -25,4 +27,6 @@ func _on_Load_Game_pressed():
 
 
 func _on_Quit_pressed():
+	yield(Fade.fade_out(1), "finished")
 	get_tree().quit()
+	Fade.fade_in(1)

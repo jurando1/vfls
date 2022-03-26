@@ -14,6 +14,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/github-integration/scripts/ContributorClass.gd"
 }, {
+"base": "CanvasLayer",
+"class": "Fade",
+"language": "GDScript",
+"path": "res://addons/UniversalFade/Fade.gd"
+}, {
 "base": "PanelContainer",
 "class": "GistItem",
 "language": "GDScript",
@@ -31,6 +36,7 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "ContributorClass": "",
+"Fade": "",
 "GistItem": "",
 "InvitationItem": "",
 "RepositoryItem": ""
@@ -40,7 +46,7 @@ _global_script_class_icons={
 
 config/name="vfls"
 run/main_scene="res://Menu.tscn"
-config/icon="res://icon.png"
+config/icon="res://nothing.png"
 
 [autoload]
 
@@ -48,6 +54,12 @@ PluginSettings="*res://addons/github-integration/scripts/PluginSettings.gd"
 IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
 UserData="*res://addons/github-integration/scripts/user_data.gd"
 RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
+
+[display]
+
+window/size/fullscreen=true
+window/vsync/use_vsync=false
+window/vsync/vsync_via_compositor=true
 
 [editor_plugins]
 
@@ -84,4 +96,6 @@ attack={
 
 [rendering]
 
+2d/options/use_nvidia_rect_flicker_workaround=true
+2d/snapping/use_gpu_pixel_snap=true
 environment/default_environment="res://default_env.tres"

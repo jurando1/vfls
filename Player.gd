@@ -27,7 +27,7 @@ func activate_animation(state):
 func _physics_process(_delta):
 	
 	motion.y += GRAVITY
-	if motion.y > MAXFALLSPEED:
+	if motion.y >= MAXFALLSPEED:
 		motion.y = MAXFALLSPEED
 	
 		# $Sprite.scale.x = -1
@@ -72,4 +72,8 @@ func _physics_process(_delta):
 	motion = move_and_slide(motion,UP)
 	
 func _on_KillZone_body_entered(body):
+		$Fall.play()
+		yield(Fade.fade_out(0.8), "finished")
+		#yield(get_tree().create_timer(0.8), "timeout")
 		get_tree().change_scene("res://GameOver.tscn")
+		Fade.fade_in(0.8)

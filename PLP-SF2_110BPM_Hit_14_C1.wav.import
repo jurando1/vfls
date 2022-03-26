@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/PLP-SF2_110BPM_Hit_14_C1.wav-b7b9ce2851f946ce364b2fc84a679b30.sample"
+
+[deps]
+
+source_file="res://PLP-SF2_110BPM_Hit_14_C1.wav"
+dest_files=[ "res://.import/PLP-SF2_110BPM_Hit_14_C1.wav-b7b9ce2851f946ce364b2fc84a679b30.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
