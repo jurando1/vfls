@@ -59,7 +59,6 @@ RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
 
 window/size/fullscreen=true
 window/vsync/use_vsync=false
-window/vsync/vsync_via_compositor=true
 
 [editor_plugins]
 
